@@ -288,6 +288,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scirpts\FlyweightMain.cs" />
+    <Compile Include="Assets\Scirpts\InterpreterMain.cs" />
+    <Compile Include="Assets\Scirpts\MediatorMain.cs" />
     <Compile Include="Assets\Scirpts\VisitorMain.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
