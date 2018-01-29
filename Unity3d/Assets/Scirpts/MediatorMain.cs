@@ -55,7 +55,6 @@ class PlayerB : Player
     }
     public override void 通知(string msg)
     {
-        throw new System.NotImplementedException();
     }
 }
 
