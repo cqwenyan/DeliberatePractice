@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{34909AA4-4165-362D-6B5E-173C570EDB48}</ProjectGuid>
+    <ProjectGuid>{80E800A4-4DB0-7C3E-D0D8-0C32410388A1}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor.dll</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <TargetFrameworkProfile></TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -330,23 +330,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scirpts\DesignerInterface\MagicTmplScriptableObject.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\AbstractFactoryMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\BuilderMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\DecoratorMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\FacadeMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\FactoryMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\FlyweightMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\InterpreterMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\MediatorMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\ObserverMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\ProtoTypeMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\ProxyMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\StateMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\TemplateMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\VisitorMain.cs" />
-    <Compile Include="Assets\Scirpts\ScriptableClass.cs" />
-    <Compile Include="Assets\Scirpts\TestScriptable.cs" />
+    <ProjectReference Include="Unity3d.csproj">
+      <Project>{34909AA4-4165-362D-6B5E-173C570EDB48}</Project>
+      <Name>Unity3d</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scirpts\Editor\CommonWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />

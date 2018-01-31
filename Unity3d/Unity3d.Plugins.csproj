@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{34909AA4-4165-362D-6B5E-173C570EDB48}</ProjectGuid>
+    <ProjectGuid>{2285C152-9525-CDF2-69B3-E09223AE53E9}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass.dll</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <TargetFrameworkProfile></TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -325,28 +325,78 @@
     <Reference Include="Sirenix.Serialization">
       <HintPath>Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="protobuf">
-      <HintPath>Assets/Scirpts/Dll/protobuf.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scirpts\DesignerInterface\MagicTmplScriptableObject.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\AbstractFactoryMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\BuilderMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\DecoratorMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\FacadeMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\FactoryMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\FlyweightMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\InterpreterMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\MediatorMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\ObserverMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\ProtoTypeMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\ProxyMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\StateMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\TemplateMain.cs" />
-    <Compile Include="Assets\Scirpts\DesignMode\VisitorMain.cs" />
-    <Compile Include="Assets\Scirpts\ScriptableClass.cs" />
-    <Compile Include="Assets\Scirpts\TestScriptable.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\AssetListExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\BoxGroupExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ButtonAndButtonGroupExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ColorPaletteExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\CombineGroupAttributeExample1.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\CombineGroupAttributeExample2.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\CombineGroupAttributeExample3.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\CustomContextMenuExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\DictionaryExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\DisableAndDisabledIfExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\DisableContextMenuExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\DisableInEditorAndPlayModeExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\DisplayAsStringExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\EnumToggleButtonsExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\FoldoutGroupAttributeExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\GUIColorExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\HideInEditorAndPlayModeExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\HideLabelExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\HideReferenceObjectPickerExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\HorizontalGroupAttributeExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\IncorrectUseOfOdinSerializeAttributeExamples1.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\IncorrectUseOfOdinSerializeAttributeExamples2.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\IndentExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\InfoBoxExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\InlineEditorExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\InlinePropertyExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\LabelTextExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ListExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\MinMaxSliderExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\MinMaxValueValueExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\MultiLinePropertyExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\NoBoilerplate.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\OnInspectorGUIExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\OnValueChangedExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\PrefabRelatedAttributesExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\PropertyOrderExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\PropertyTooltipExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\QuaternionAndVectorExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ReadOnlyExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\RequiredExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\SceneAndAssetsOnlyExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\SerializeAnything.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ShowAndHideIfExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ShowInInspectorExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ShowPropertiesInTheInspectorExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\TabExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\TitleExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\TitleGroupExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ToggleExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ToggleLeftExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ValidateInputExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\ValueDropdownExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Attribute Examples\WrapExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\ContextExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\CustomDrawerExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\CustomGroupExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\GenericDrawerExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\GenericMenuExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\HealthBarExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\PriorityExamples.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\ReflectionExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\StringMemberHelperExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Custom Drawer Examples\ValidationExample.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Object Placement Demo\ObjectPlacementFunction.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Object Placement Demo\ObjectPlacer.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Object Placement Demo\PlaceableObject.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Object Placement Demo\PlacementFunctions\CirclePlacementFunction.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Object Placement Demo\PlacementFunctions\RandomPlacementFunction.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Object Placement Demo\PlacementFunctions\SineWavePlacementFunction.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Demos\Odin Inspector\Scripts\Object Placement Demo\PlacementFunctions\SpirographPlacementFunction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
