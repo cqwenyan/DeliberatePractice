@@ -11,4 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 345d7e901dc800642aa94c7c401a8d39, type: 3}
   m_Name: MagicTmpl
   m_EditorClassIdentifier: 
-  list: []
+  magicList:
+  - MagicType: 1
+    Id: 1
+    BaseDamge: 1
+  - MagicType: 2
+    Id: 2
+    BaseDamge: 2

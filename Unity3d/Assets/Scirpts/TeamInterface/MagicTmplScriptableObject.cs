@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ProtoBuf;
 using System.IO;
 using System;
 
@@ -12,48 +11,36 @@ namespace TeamInterface
         string PbPath { get; set; }
         void Save();
         void Unsave();
-
     }
 
-    [ProtoContract]
-    [Serializable]
-    [Sirenix.OdinInspector.ShowOdinSerializedPropertiesInInspector()]
-    public class MagicTmpl
-    {
-        [ProtoMember(0)]
-        public byte MagicType;
-        [ProtoMember(1)]
-        public int Id;
-        [ProtoMember(2)]
-        public int BaseDamge;
-    }
-
+    // 编辑器
     public class MagicTmplScriptableObject : ScriptableObject, IScriptObj
     {
         public string PbPath { get; set; }
 
-        public List<MagicTmpl> list = new List<MagicTmpl>();
+        public List<MagicTmpl> magicList = new List<MagicTmpl>();
 
-
+        [Sirenix.OdinInspector.Button(Sirenix.OdinInspector.ButtonSizes.Large)]
         public void Save()
         {
-            Tools.SavePbFile(list, Application.streamingAssetsPath + PbPath);
+            Tools.SavePbFile(magicList, Application.streamingAssetsPath + PbPath);
         }
 
+        [Sirenix.OdinInspector.Button(Sirenix.OdinInspector.ButtonSizes.Medium)]
         public void Unsave()
         {
-            Tools.ResetPbFile(ref list, Application.streamingAssetsPath + PbPath);
+            Tools.ResetPbFile(ref magicList, Application.streamingAssetsPath + PbPath);
         }
     }
 
     public class TestScriptableObject
     {
-        [UnityEditor.MenuItem("Lake/MagicTmpl")]
+        [UnityEditor.MenuItem("Lake/TeamInterface")]
         public static void SelectMagic()
         {
             EditorTools.EditorScriptObject<MagicTmplScriptableObject>("/Datas/MagicTmpl");
         }
-        
+
     }
 
     public class EditorTools
@@ -80,11 +67,11 @@ namespace TeamInterface
     }
 
     public class Tools
-    { 
+    {
 
         public static bool SavePbFile<T>(T needSavedObj, string path)
         {
-            Directory.CreateDirectory(path);
+            Directory.CreateDirectory(Path.GetDirectoryName(path));
 
             try
             {
@@ -106,6 +93,52 @@ namespace TeamInterface
         {
             using (FileStream fileStream = new FileStream(path, FileMode.Open))
                 needSavedObj = ProtoBuf.Serializer.Deserialize<T>(fileStream);
+        }
+
+        // 模拟服务端
+        public static bool LoadConfigFileInServer<T>(ref T data, string path)
+        {
+            if (File.Exists(path) == false)
+                throw new Exception("No Configuration file in " + path);
+
+            try
+            {
+                using (var fs = new FileStream(path, FileMode.Open))
+                    data = ProtoBuf.Serializer.Deserialize<T>(fs);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Something is wrong in:" + path, ex);
+            }
+            return true;
+        }
+
+        // 客户端
+        public static IEnumerator LoadConfigFileInClient<T>(Action<T> action, string path)
+        {
+            var www = new WWW(Application.streamingAssetsPath + "/Datas/" + path);
+            while (www.isDone == false)
+            {
+                if (string.IsNullOrWhiteSpace(www.error) == false)
+                    throw new Exception(www.error);
+
+                //W.progress shown the load progress
+                yield return null;
+            }
+            //if (string.IsNullOrWhiteSpace(W.error) == false)
+            //    throw new Exception(W.error);
+
+            try
+            {
+                var memoryStream = new MemoryStream(www.bytes);
+                var data = ProtoBuf.Serializer.Deserialize<T>(memoryStream);
+                action.Invoke(data);
+            }
+            catch (Exception exception)
+            {
+                throw new Exception("read configuration file wrong in " + path, exception);
+            }
+
         }
     }
 }
