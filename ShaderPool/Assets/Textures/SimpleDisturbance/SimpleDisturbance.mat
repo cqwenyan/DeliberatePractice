@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: FlowLight
-  m_Shader: {fileID: 4800000, guid: 41081e67d2cb6ff47b414c8471bb448f, type: 3}
+  m_Name: SimpleDisturbance
+  m_Shader: {fileID: 4800000, guid: a6681a2d547d8144099110e9dcc29a1b, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: eb5f6e2757c821940b69cf1456f7865a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -54,12 +54,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _node_3365:
-        m_Texture: {fileID: 0}
+    - _node_6016:
+        m_Texture: {fileID: 2800000, guid: eb5f6e2757c821940b69cf1456f7865a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_7519:
+        m_Texture: {fileID: 2800000, guid: 5485e2f56028a3c4cb54f5caa167377e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8866:
+        m_Texture: {fileID: 2800000, guid: eb5f6e2757c821940b69cf1456f7865a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _: 0.21
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -76,15 +83,10 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _dfg: 0.46
-    - _lineWidth: 6.702677
-    - _moveSpeed: 0.5
-    - _node_1177: 0.5
-    - _node_2610: 0
-    - _node_425: 0.3
-    - _node_8809: 7.625278
+    - _node_4406: 0.22
+    - _node_5740: 0.19
+    - _node_8211: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _lineColor: {r: 0.94482756, g: 1, b: 0, a: 1}
-    - _node_8135: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _node_3345: {r: 0.9264706, g: 0.4700476, b: 0.4700476, a: 1}

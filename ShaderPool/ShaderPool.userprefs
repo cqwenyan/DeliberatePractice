@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="ShaderPool.Plugins.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Textures\FlowLight\FlowLight.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Textures\AniScaleUV_SF.shader">
     <Files>
       <File FileName="Assets\Textures\FlowLight\FlowLight.shader" Line="1" Column="1" />
+      <File FileName="Assets\Textures\AniScaleUV_SF.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

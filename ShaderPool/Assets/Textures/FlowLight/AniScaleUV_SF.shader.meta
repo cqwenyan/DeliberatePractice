@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 94b803256da0b8f44aab7729ec5c51da
+timeCreated: 1517987609
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: a94c9a7eb94ceec4a8d67a1890e22e51, type: 3}
+  - _LiuGuang: {fileID: 2800000, guid: 9a06ccda88cf08040b15236734546bba, type: 3}
+  - _LiuGuang_Mask: {fileID: 2800000, guid: 30690478aaf078e4d90361b7186428c9, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

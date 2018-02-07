@@ -259,6 +259,9 @@
     <Reference Include="UnityEditor.WSA.Extensions">
       <HintPath>C:/Program Files/Unity2017/Unity201730f3/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:/Program Files/Unity2017/Unity201730f3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity2017/Unity201730f3/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -301,24 +304,22 @@
     <Compile Include="Assets\Plugins\ShaderForge\Editor\InternalResources\Inspectors\ShaderForgeMaterialInspector.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\NewShader.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\DielectricFluidShader.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\FluidColorsBlend.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\FluidColorsOpaque.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\FluidShader.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\FluidShaderFlat.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\FluidThickness.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\LitParticles.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\NormalReconstruction.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\OpaqueFluidShader.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\ParticleShader.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\ScreenSpaceCurvatureFlow.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\SimpleParticleShader.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\StandardBackfaces.shader" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\UnityStandardCoreBackfaces.cginc" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\UnityStandardCoreForwardBackfaces.cginc" />
-    <None Include="Assets\Plugins\Obi\Resources\ObiMaterials\UnityStandardCoreForwardSimpleBackfaces.cginc" />
+    <None Include="Assets\CGwell FX Shader\Readme.txt" />
+    <None Include="Assets\CGwell FX Shader\Shader\Add Lv1.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Add Lv2.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Add Lv3.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Alpha Blend Lv1.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Alpha Blend Lv2.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Alpha Blend Lv3.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Displacement Map Add.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Dissolve ColorEdge.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Dissolve Simple.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Dissolve.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Distortion.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Falloff Alpha.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Falloff Texture.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Mask Add.shader" />
+    <None Include="Assets\CGwell FX Shader\Shader\Mask AlphaBlend.shader" />
     <None Include="Assets\Plugins\ShaderForge\Editor\InternalResources\GPU Rendering\Common\ExtractChannel.shader" />
     <None Include="Assets\Plugins\ShaderForge\Editor\InternalResources\GPU Rendering\Common\FillColor.shader" />
     <None Include="Assets\Plugins\ShaderForge\Editor\InternalResources\GPU Rendering\Common\ReadPackedData.shader" />
@@ -516,7 +517,12 @@
     <None Include="Assets\Plugins\ShaderForge\Readme.txt" />
     <None Include="Assets\Textures\2DWater\2DWater.shader" />
     <None Include="Assets\Textures\2DWorldPosTile_SF\2DWorldPosTile_SF.shader" />
-    <None Include="Assets\Textures\FlowLight\FlowLight.shader" />
+    <None Include="Assets\Textures\Dissolve\Dissolve.shader" />
+    <None Include="Assets\Textures\FlowLight\AniScaleUV_SF.shader" />
+    <None Include="Assets\Textures\FlowLight\FlowLight_1.shader" />
+    <None Include="Assets\Textures\FlowLight\FlowLight_2.shader" />
+    <None Include="Assets\Textures\SimpleDisturbance\SimpleDisturbance.shader" />
+    <None Include="Assets\Textures\SimpleMosaic\SimpleMosaic.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
