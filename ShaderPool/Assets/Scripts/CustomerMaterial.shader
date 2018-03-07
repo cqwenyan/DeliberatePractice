@@ -1,30 +1,29 @@
-Shader "Whale/CustomerMaterial"
+Shader "WhaleYan/CusterMaterialInspectorInUnity"
 {
 	Properties
 	{
 		[PerRenderData] _MainTex ("Texture", 2D) = "white" {}
 		[Header(The Header)] _Header("Header", Float) = 1
 		[Space] _Space("Space", Float) = 1
-		[Space(50)] _Space50("Space50", Float) = 1
+		[Space(50)] _Space50("Space 50", Float) = 1
 		[Toggle] _Toggle("Toggle", Float) = 0
 		[Toggle(Meet_The_Condition)] _Toggle_Meet_The_Condition("Condition Toggle", Float) = 0
 		[PowerSlider(2.0)] _PowerSlider("Power Slider", Range(0, 1)) = 0.25 // 滑动条中滑动进度的平方 0.5*0.5
-		[KeywordEnum(None, Half, Full)] _KeywordEnum("Overlay mode", Float) = 0
 
-		[Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend("Src Blend Mode", Float) = 1
-		[Enum(Zero, 0, One, 1, Two, 2)] _ZWriteEnum("Z Write", Float) = 0
+		[KeywordEnum(None, Half, Full)] _KeywordEnum("Key Word Enum", Float) = 0
+		[Enum(UnityEngine.Rendering.BlendMode)] _SrcBlendEnum("Blend Mode Enum", Float) = 1
+		[Enum(Zero, 0, One, 1, Two, 2)] _ZWriteEnum("Z Write Enum", Float) = 0
 		[Enum(UnityEngine.Rendering.CompareFunction)] _ZTestEnum("Z Test Enum", Float) = 0
-		[Enum(UnityEngine.Rendering.CullMode)] _CullEnum("Cull Mode ", Float) = 1
-
+		[Enum(UnityEngine.Rendering.CullMode)] _CullModeEnum("Cull Mode Enum", Float) = 1
 	}
 
 	SubShader
 	{
 		Tags { "Queue" = "Transparent" "RenderType"="Transparent" }
-		Blend [_SrcBlend] OneMinusSrcAlpha
+		Blend [_SrcBlendEnum] OneMinusSrcAlpha
 		ZWrite [_ZWriteEnum]
 		ZTest [_ZTestEnum]
-		Cull [_CullEnum]
+		Cull [_CullModeEnum]
 
 		Pass
 		{
