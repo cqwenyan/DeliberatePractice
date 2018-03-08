@@ -10,7 +10,7 @@ Shader "WhaleYan/CusterMaterialInspectorInUnity"
 		[Toggle(Meet_The_Condition)] _Toggle_Meet_The_Condition("Condition Toggle", Float) = 0
 		[PowerSlider(2.0)] _PowerSlider("Power Slider", Range(0, 1)) = 0.25 // 滑动条中滑动进度的平方 0.5*0.5
 
-		[KeywordEnum(None, Half, Full)] _KeywordEnum("Key Word Enum", Float) = 0
+		[KeywordEnum(None, Half, Full)] _KeyEnum("Key Word Enum", Float) = 0
 		[Enum(UnityEngine.Rendering.BlendMode)] _SrcBlendEnum("Blend Mode Enum", Float) = 1
 		[Enum(Zero, 0, One, 1, Two, 2)] _ZWriteEnum("Z Write Enum", Float) = 0
 		[Enum(UnityEngine.Rendering.CompareFunction)] _ZTestEnum("Z Test Enum", Float) = 0
@@ -32,7 +32,7 @@ Shader "WhaleYan/CusterMaterialInspectorInUnity"
 			#pragma fragment frag
 
 			#pragma shader_feature Meet_The_Condition
-			#pragma multi_compile _KeywordEnum_NONE _KeywordEnum_HALF _KeywordEnum_FULL
+			#pragma multi_compile _KEYENUM_NONE _KEYENUM_HALF _KEYENUM_FULL
 
 			#include "UnityCG.cginc"
 
@@ -67,11 +67,11 @@ Shader "WhaleYan/CusterMaterialInspectorInUnity"
 				col.a = 0.2;
 				# endif
 
-				# if _KeywordEnum_NONE
+				# if _KEYENUM_NONE
 				col.a *= 0;
-				# elif _KeywordEnum_HALF
+				# elif _KEYENUM_HALF
 				col.a *= 0.5;
-				# elif _KeywordEnum_FULL
+				# elif _KEYENUM_FULL
 				col.a *= 1;
 				# endif
 
