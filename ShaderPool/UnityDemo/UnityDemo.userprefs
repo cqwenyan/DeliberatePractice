@@ -1,9 +1,8 @@
-﻿<Properties StartupItem="ShaderPool.Plugins.csproj">
+﻿<Properties StartupItem="UnityDemo.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Textures\AniScaleUV_SF.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Textures\Reflect_Fresnel_Dispersion\NewUnlitShader.shader">
     <Files>
-      <File FileName="Assets\Textures\FlowLight\FlowLight.shader" Line="1" Column="1" />
-      <File FileName="Assets\Textures\AniScaleUV_SF.shader" Line="1" Column="1" />
+      <File FileName="Assets\Textures\Reflect_Fresnel_Dispersion\NewUnlitShader.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
