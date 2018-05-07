@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9053D8F2-BD25-3C8A-BBB5-40197884A6E8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\include;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\include;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\include;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\include;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\bin\cmake.exe -HF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 -BF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 --check-stamp-file F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\fg_version.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindOpenGL.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\config.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.rc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\freeglutdll.def.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.pc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\bin\cmake.exe -HF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 -BF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 --check-stamp-file F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\fg_version.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindOpenGL.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\config.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.rc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\freeglutdll.def.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.pc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\bin\cmake.exe -HF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 -BF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 --check-stamp-file F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\fg_version.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindOpenGL.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\config.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.rc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\freeglutdll.def.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.pc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\bin\cmake.exe -HF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 -BF:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0 --check-stamp-file F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\fg_version.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindOpenGL.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\config.h.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.rc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\src\freeglutdll.def.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.pc.in;F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\ZERO_CHECK.vcxproj">
+      <Project>{9972AB82-4EEB-3543-99B1-77F59A03382B}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CallbackMaker.vcxproj">
+      <Project>{3033413F-A865-3CC1-B1FC-87BA44CD3EC9}</Project>
+      <Name>CallbackMaker</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CallbackMaker_static.vcxproj">
+      <Project>{47851F9E-5A04-383D-BE6A-9D7D828EB51C}</Project>
+      <Name>CallbackMaker_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Fractals.vcxproj">
+      <Project>{FA1491A6-B7A0-397A-BF98-ACDE79F79E7D}</Project>
+      <Name>Fractals</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Fractals_random.vcxproj">
+      <Project>{FC298195-DF4F-380A-B757-81B80A0783FB}</Project>
+      <Name>Fractals_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Fractals_random_static.vcxproj">
+      <Project>{E79E6235-7871-3E5B-B2A1-D4DC338AF510}</Project>
+      <Name>Fractals_random_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Fractals_static.vcxproj">
+      <Project>{7D5A6D1E-130A-37BF-9607-66A0B9844FD7}</Project>
+      <Name>Fractals_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Lorenz.vcxproj">
+      <Project>{48A3B5A8-3408-3ECE-BED9-F43CC605BE34}</Project>
+      <Name>Lorenz</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Lorenz_static.vcxproj">
+      <Project>{FFBCE11B-2FB0-3AE5-95A8-51951D300D61}</Project>
+      <Name>Lorenz_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\One.vcxproj">
+      <Project>{8D76FF69-C23D-3638-9BDA-E0610D274D50}</Project>
+      <Name>One</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\One_static.vcxproj">
+      <Project>{F3B84E7F-733E-3180-A733-6161840A80D8}</Project>
+      <Name>One_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Resizer.vcxproj">
+      <Project>{6DD9FE52-C469-31E1-B687-364473CFE8AF}</Project>
+      <Name>Resizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\Resizer_static.vcxproj">
+      <Project>{C657616A-32B8-3A46-ADC3-E7DE70712429}</Project>
+      <Name>Resizer_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut.vcxproj">
+      <Project>{19B04484-2A67-3ED4-A02A-641E292F5D72}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\freeglut_static.vcxproj">
+      <Project>{5833DE03-A30E-3DB9-A7CB-8B080C3A1763}</Project>
+      <Name>freeglut_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\multi-touch.vcxproj">
+      <Project>{DCE67438-AC4C-3D18-B75E-C5C75875FD58}</Project>
+      <Name>multi-touch</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\multi-touch_static.vcxproj">
+      <Project>{C5A05638-45F1-335B-9242-EE175F43D0E8}</Project>
+      <Name>multi-touch_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\shapes.vcxproj">
+      <Project>{C7D2EA63-9592-3C2B-8856-DCA037D71A79}</Project>
+      <Name>shapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\shapes_static.vcxproj">
+      <Project>{8A666C33-0232-301A-939F-FAB098F5604A}</Project>
+      <Name>shapes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\smooth_opengl3.vcxproj">
+      <Project>{BC27CBAC-6832-35B0-AA9D-E0FC4497F188}</Project>
+      <Name>smooth_opengl3</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\smooth_opengl3_static.vcxproj">
+      <Project>{8D7B5FFF-FBFE-3F4D-A620-CBF7B01987DF}</Project>
+      <Name>smooth_opengl3_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\subwin.vcxproj">
+      <Project>{F62AE991-6A71-309A-8B3B-870D9F7A7A8C}</Project>
+      <Name>subwin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\subwin_static.vcxproj">
+      <Project>{E8F2995A-03B0-3431-AA13-DB9E657BA0BB}</Project>
+      <Name>subwin_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\timer.vcxproj">
+      <Project>{B9448C36-748A-3D25-AD3E-5BD3E70779B0}</Project>
+      <Name>timer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\timer_static.vcxproj">
+      <Project>{D1A28AD0-B1B4-37DD-B39A-9B15BD1E033A}</Project>
+      <Name>timer_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

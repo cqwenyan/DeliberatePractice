@@ -1,0 +1,529 @@
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+���� .NET Framework �� Microsoft (R) ��������汾 15.6.85.37198
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/5/8 ���ڶ� 1:01:31��
+�ڵ� 1 �ϵ���Ŀ��F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:02.06
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+���� .NET Framework �� Microsoft (R) ��������汾 15.6.85.37198
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/5/8 ���ڶ� 1:01:33��
+�ڵ� 1 �ϵ���Ŀ��F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\3.11.1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.76
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a5e5b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:34。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_a5e5b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a5e5b.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a5e5b.dir\Debug\cmTC_a5e5b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a5e5b.dir\Debug\cmTC_a5e5b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5e5b.dir\Debug\\" /Fd"cmTC_a5e5b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  testCCompiler.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5e5b.dir\Debug\\" /Fd"cmTC_a5e5b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_a5e5b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_a5e5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_a5e5b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a5e5b.dir\Debug\testCCompiler.obj
+  cmTC_a5e5b.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_a5e5b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a5e5b.dir\Debug\cmTC_a5e5b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a5e5b.dir\Debug\cmTC_a5e5b.tlog\cmTC_a5e5b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_a5e5b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.21
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_03464.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:35。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_03464.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_03464.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_03464.dir\Debug\cmTC_03464.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_03464.dir\Debug\cmTC_03464.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03464.dir\Debug\\" /Fd"cmTC_03464.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03464.dir\Debug\\" /Fd"cmTC_03464.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_03464.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_03464.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_03464.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_03464.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_03464.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_03464.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_03464.dir\Debug\cmTC_03464.tlog\unsuccessfulbuild”。
+  正在对“cmTC_03464.dir\Debug\cmTC_03464.tlog\cmTC_03464.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_03464.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.64
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_525df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:36。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_525df.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_525df.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_525df.dir\Debug\cmTC_525df.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_525df.dir\Debug\cmTC_525df.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_525df.dir\Debug\\" /Fd"cmTC_525df.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_525df.dir\Debug\\" /Fd"cmTC_525df.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_525df.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_525df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_525df.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_525df.dir\Debug\testCXXCompiler.obj
+  cmTC_525df.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_525df.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_525df.dir\Debug\cmTC_525df.tlog\unsuccessfulbuild”。
+  正在对“cmTC_525df.dir\Debug\cmTC_525df.tlog\cmTC_525df.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_525df.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.66
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d686f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:37。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_d686f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d686f.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d686f.dir\Debug\cmTC_d686f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d686f.dir\Debug\cmTC_d686f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d686f.dir\Debug\\" /Fd"cmTC_d686f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d686f.dir\Debug\\" /Fd"cmTC_d686f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_d686f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_d686f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_d686f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d686f.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d686f.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_d686f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d686f.dir\Debug\cmTC_d686f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d686f.dir\Debug\cmTC_d686f.tlog\cmTC_d686f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_d686f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.75
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d4315.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:38。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_d4315.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d4315.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d4315.dir\Debug\cmTC_d4315.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d4315.dir\Debug\cmTC_d4315.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d4315.dir\Debug\\" /Fd"cmTC_d4315.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\feature_tests.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d4315.dir\Debug\\" /Fd"cmTC_d4315.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_d4315.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_d4315.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_d4315.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d4315.dir\Debug\feature_tests.obj
+  cmTC_d4315.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_d4315.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d4315.dir\Debug\cmTC_d4315.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d4315.dir\Debug\cmTC_d4315.tlog\cmTC_d4315.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_d4315.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.67
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_33683.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:39。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_33683.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_33683.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_33683.dir\Debug\cmTC_33683.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_33683.dir\Debug\cmTC_33683.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33683.dir\Debug\\" /Fd"cmTC_33683.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33683.dir\Debug\\" /Fd"cmTC_33683.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c"
+  HAVE_SYS_TYPES_H.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_33683.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_33683.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_33683.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_33683.dir\Debug\HAVE_SYS_TYPES_H.obj
+  cmTC_33683.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_33683.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_33683.dir\Debug\cmTC_33683.tlog\unsuccessfulbuild”。
+  正在对“cmTC_33683.dir\Debug\cmTC_33683.tlog\cmTC_33683.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_33683.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.76
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3ede1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:42。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_3ede1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3ede1.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3ede1.dir\Debug\cmTC_3ede1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3ede1.dir\Debug\cmTC_3ede1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ede1.dir\Debug\\" /Fd"cmTC_3ede1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ede1.dir\Debug\\" /Fd"cmTC_3ede1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c"
+  HAVE_STDBOOL_H.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_3ede1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_3ede1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_3ede1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3ede1.dir\Debug\HAVE_STDBOOL_H.obj
+  cmTC_3ede1.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_3ede1.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3ede1.dir\Debug\cmTC_3ede1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3ede1.dir\Debug\cmTC_3ede1.tlog\cmTC_3ede1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_3ede1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.70
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d72b4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:44。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_d72b4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d72b4.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d72b4.dir\Debug\cmTC_d72b4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d72b4.dir\Debug\cmTC_d72b4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d72b4.dir\Debug\\" /Fd"cmTC_d72b4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d72b4.dir\Debug\\" /Fd"cmTC_d72b4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c"
+  HAVE_FCNTL_H.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_d72b4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_d72b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_d72b4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d72b4.dir\Debug\HAVE_FCNTL_H.obj
+  cmTC_d72b4.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_d72b4.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d72b4.dir\Debug\cmTC_d72b4.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d72b4.dir\Debug\cmTC_d72b4.tlog\cmTC_d72b4.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_d72b4.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_df343.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:47。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_df343.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_df343.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_df343.dir\Debug\cmTC_df343.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_df343.dir\Debug\cmTC_df343.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df343.dir\Debug\\" /Fd"cmTC_df343.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df343.dir\Debug\\" /Fd"cmTC_df343.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c"
+  HAVE_STDINT_H.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_df343.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_df343.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_df343.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_df343.dir\Debug\HAVE_STDINT_H.obj
+  cmTC_df343.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_df343.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_df343.dir\Debug\cmTC_df343.tlog\unsuccessfulbuild”。
+  正在对“cmTC_df343.dir\Debug\cmTC_df343.tlog\cmTC_df343.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_df343.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.68
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fc5b7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.6.85.37198
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/8 星期二 1:01:48。
+节点 1 上的项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_fc5b7.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fc5b7.dir\Debug\”。
+  正在创建目录“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fc5b7.dir\Debug\cmTC_fc5b7.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fc5b7.dir\Debug\cmTC_fc5b7.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc5b7.dir\Debug\\" /Fd"cmTC_fc5b7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.13.26132 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc5b7.dir\Debug\\" /Fd"cmTC_fc5b7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c"
+  HAVE_INTTYPES_H.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_fc5b7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_fc5b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/freeglut-3.0.0/CMakeFiles/CMakeTmp/Debug/cmTC_fc5b7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fc5b7.dir\Debug\HAVE_INTTYPES_H.obj
+  cmTC_fc5b7.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\Debug\cmTC_fc5b7.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_fc5b7.dir\Debug\cmTC_fc5b7.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fc5b7.dir\Debug\cmTC_fc5b7.tlog\cmTC_fc5b7.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\freeglut-3.0.0\CMakeFiles\CMakeTmp\cmTC_fc5b7.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.68
+
+
