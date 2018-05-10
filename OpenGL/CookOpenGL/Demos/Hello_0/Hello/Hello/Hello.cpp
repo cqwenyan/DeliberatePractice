@@ -89,19 +89,22 @@ void InitData()
 {
 
 	glGenVertexArrays(1, &VAO);
+	// 创建缓冲器
 	glGenBuffers(1, &VBO);
 	glGenBuffers(1, &EBO);
 	glBindVertexArray(VAO);
-
+	// 绑定缓冲器
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
+	// 绑定顶点数据
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-
+	// 设置管线解析缓冲中数据的方式
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
+	// 开启顶点属性
 	glEnableVertexAttribArray(0);
-
+	// 绑定缓冲
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 	glBindVertexArray(0);
 }
@@ -116,7 +119,7 @@ void SetupRC()
 
 void RenderScene(void)
 {
-
+	// 清除颜色缓存
 	glClear(GL_COLOR_BUFFER_BIT);
 	glUseProgram(shaderProgram);
 	glBindVertexArray(VAO);
@@ -130,14 +133,21 @@ void RenderScene(void)
 
 int main(int argc, char* argv[])
 {
+	// 初始化GLUT
 	glutInit(&argc, argv);
-
+	// GLUT_DOUBLE:开启双缓冲机制，交替显示;GLUT_RGBA:颜色缓冲
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+	// 窗口大小
 	glutInitWindowSize(800, 600);
+	// 窗口位置
+	glutInitWindowPosition(200, 200);
+	// 窗口标题
 	glutCreateWindow("GL_Test");
 	glewInit();   GLenum err = glewInit();// 前面运行了glut*的一系列函数，已经获得了opengl的context，所以这里不会出错，如果在main的开始就调用就会有问题
+	// GLUT提供的主回调之一，用以完成一帧图像的渲染工作，将会被GLUT内部循环调用
 	glutDisplayFunc(RenderScene);
 	SetupRC();
+	// 通知GLUT开始内部循环，调用注册的RenderScene
 	glutMainLoop();
 	return 0;
 }
