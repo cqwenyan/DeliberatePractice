@@ -1,12 +1,12 @@
-// Hello.cpp: ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// Hello.cpp: å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 
-//#pragma comment(lib,"glew32s.lib")
+//#pragma comment(lib,"glew32sd.lib")
 
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
 #include <windows.h>
-// Ã»ÓĞÔò±¨´í£¬ÓĞ¿ÕÑĞ¾¿Ò»ÏÂ
+// æ²¡æœ‰åˆ™æŠ¥é”™ï¼Œæœ‰ç©ºç ”ç©¶ä¸€ä¸‹
 #define GLEW_STATIC
 #include <gl/glew.h>
 #include <gl/glut.h>
@@ -39,22 +39,28 @@ GLuint indices[] = {  // Note that we start from 0!
 	0, 1, 3,  // First Triangle
 	1, 2, 3   // Second Triangle
 };
+// VBO(Vertex buffer object)floatæ•°æ®ï¼ˆ åæ ‡ã€UVã€æ³•çº¿ã€é¢œè‰²ã€ç´¢å¼•ï¼‰
+// VAO(Vertex array object) é¡¶ç‚¹æ•°ç»„å¯¹è±¡ï¼ˆå®šä¹‰äº†é¡¶ç‚¹å±æ€§ï¼‰
 GLuint VBO, VAO, EBO;
 
 GLuint shaderProgram;
 void  InitShaders()
 {
-	// Build and compile our shader program
 	// Vertex shader
+	// åˆ›å»ºshaderï¼ˆä½¿ç”¨glewåº“ï¼Œé¡»åŒ…å«glew.hå’Œglew32.libï¼‰
 	GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
+	// å‘shaderä¸­å¯¼å…¥ç€è‰²å™¨ç¨‹åº(shaderçš„handlerï¼Œæ•°ç»„ä¸­çš„å­—ç¬¦ä¸²æ•°é‡ï¼Œå­—ç¬¦ä¸²æ•°ç»„ï¼Œå­—ç¬¦ä¸²é•¿åº¦æ•°ç»„ï¼ˆæ³¨æ„å¦‚æœæ˜¯NULLåˆ™å­—ç¬¦ä¸²ä»¥NULLç»“å°¾ï¼‰)
 	glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
+	// ç¼–è¯‘shaderã€‚å°†ç€è‰²å™¨ç¨‹åºç¼–è¯‘æˆshaderå¯è¯†åˆ«çš„ç¨‹åº
 	glCompileShader(vertexShader);
 	// Check for compile time errors
 	GLint success;
 	GLchar infoLog[512];
+	// ç”¨äºè°ƒè¯•ï¼ˆç¼–è¯‘é˜¶æ®µï¼‰
 	glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);
 	if (!success)
 	{
+		// è·å–ç¼–è¯‘é”™è¯¯
 		glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
 		std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
 	}
@@ -62,24 +68,25 @@ void  InitShaders()
 	GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
 	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
 	glCompileShader(fragmentShader);
-	// Check for compile time errors
 	glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
 	if (!success)
 	{
 		glGetShaderInfoLog(fragmentShader, 512, NULL, infoLog);
 		std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
 	}
-	// Link shaders
+	// åˆ›å»º ç€è‰²å™¨ç¨‹åºå®¹å™¨ï¼ˆå¦‚æˆåŠŸ è¿”å›ç€è‰²å™¨ç¨‹åºidï¼‰
 	shaderProgram = glCreateProgram();
 	glAttachShader(shaderProgram, vertexShader);
 	glAttachShader(shaderProgram, fragmentShader);
+	// é“¾æ¥ç¨‹åºï¼ˆç€è‰²å™¨å®¹å™¨idï¼‰
 	glLinkProgram(shaderProgram);
-	// Check for linking errors
+	// ç”¨äºè°ƒè¯•ï¼ˆè¿æ¥é˜¶æ®µï¼‰
 	glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
 	if (!success) {
 		glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
 		std::cout << "ERROR::SHADER::PROGRAM::LINKING_FAILED\n" << infoLog << std::endl;
 	}
+	// é‡Šæ”¾shaderèµ„æº
 	glDeleteShader(vertexShader);
 	glDeleteShader(fragmentShader);
 }
@@ -87,25 +94,25 @@ void  InitShaders()
 
 void InitData()
 {
-
 	glGenVertexArrays(1, &VAO);
-	// ´´½¨»º³åÆ÷
+	// åˆ›å»ºç¼“å†²å™¨
 	glGenBuffers(1, &VBO);
 	glGenBuffers(1, &EBO);
 	glBindVertexArray(VAO);
-	// °ó¶¨»º³åÆ÷
+	// ç»‘å®šç¼“å†²å™¨
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	// °ó¶¨¶¥µãÊı¾İ
+	// ç»™VBOæŒ‡å®šç›¸åº”çš„ç±»å‹ã€‚ç»‘å®šé¡¶ç‚¹æ•°æ®(æ‹·è´æ•°æ®åˆ°ç¼“å†²ä¸­)
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-	// ÉèÖÃ¹ÜÏß½âÎö»º³åÖĞÊı¾İµÄ·½Ê½
+	// è®¾ç½®ç®¡çº¿è§£æç¼“å†²ä¸­æ•°æ®çš„æ–¹å¼
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
-	// ¿ªÆô¶¥µãÊôĞÔ
+	// ç¦ç”¨ é¡¶ç‚¹æ•°ç»„å¯¹è±¡
 	glEnableVertexAttribArray(0);
-	// °ó¶¨»º³å
+	// ç»‘å®šç¼“å†²
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	// ç¦ç”¨ é¡¶ç‚¹ç¼“å†²å¯¹è±¡
 	glBindVertexArray(0);
 }
 
@@ -119,78 +126,36 @@ void SetupRC()
 
 void RenderScene(void)
 {
-	// Çå³ıÑÕÉ«»º´æ
+	// æ¸…é™¤é¢œè‰²ç¼“å­˜
 	glClear(GL_COLOR_BUFFER_BIT);
+	// åŠ è½½å¹¶ä½¿ç”¨é“¾æ¥å¥½çš„ç¨‹åº(ç€è‰²å™¨ç¨‹åºçš„id),idä¸º0è¡¨ç¤ºå›ºå®šåŠŸèƒ½ç®¡çº¿ã€‚
 	glUseProgram(shaderProgram);
 	glBindVertexArray(VAO);
 	//glDrawArrays(GL_TRIANGLES, 0, 6);
+	// ï¼ˆGL_TRIANGLESï¼Œä¸‰è§’å½¢é¢ç‰‡æ•°ï¼ŒGL_UNSIGNED_INTï¼Œä¸‰è§’å½¢ç´¢å¼•æ•°ç»„ï¼‰
 	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 	glBindVertexArray(0);
-
-
+	// ä¸glFlush()æ•ˆæœç­‰ä»· ä¸“ç”¨äºåŒç¼“å†²æ¸²æŸ“ã€‚ï¼ˆglFlush(),ä¸å‚¨è¿äºæ¸²æŸ“ç¼“å†²åŒºï¼Œå¼ºåˆ¶ç›´æ¥è¾“å‡ºç»“æœï¼‰
 	glutSwapBuffers();
 }
 
 int main(int argc, char* argv[])
 {
-	// ³õÊ¼»¯GLUT
+	// åˆå§‹åŒ–GLUT
 	glutInit(&argc, argv);
-	// GLUT_DOUBLE:¿ªÆôË«»º³å»úÖÆ£¬½»ÌæÏÔÊ¾;GLUT_RGBA:ÑÕÉ«»º³å
+	// GLUT_DOUBLE:å¼€å¯åŒç¼“å†²æœºåˆ¶ï¼Œäº¤æ›¿æ˜¾ç¤º;GLUT_RGBA:é¢œè‰²ç¼“å†²
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
-	// ´°¿Ú´óĞ¡
+	// çª—å£å¤§å°
 	glutInitWindowSize(800, 600);
-	// ´°¿ÚÎ»ÖÃ
+	// çª—å£ä½ç½®
 	glutInitWindowPosition(200, 200);
-	// ´°¿Ú±êÌâ
+	// çª—å£æ ‡é¢˜
 	glutCreateWindow("GL_Test");
-	glewInit();   GLenum err = glewInit();// Ç°ÃæÔËĞĞÁËglut*µÄÒ»ÏµÁĞº¯Êı£¬ÒÑ¾­»ñµÃÁËopenglµÄcontext£¬ËùÒÔÕâÀï²»»á³ö´í£¬Èç¹ûÔÚmainµÄ¿ªÊ¼¾Íµ÷ÓÃ¾Í»áÓĞÎÊÌâ
-	// GLUTÌá¹©µÄÖ÷»Øµ÷Ö®Ò»£¬ÓÃÒÔÍê³ÉÒ»Ö¡Í¼ÏñµÄäÖÈ¾¹¤×÷£¬½«»á±»GLUTÄÚ²¿Ñ­»·µ÷ÓÃ
+	glewInit();   GLenum err = glewInit();// å‰é¢è¿è¡Œäº†glut*çš„ä¸€ç³»åˆ—å‡½æ•°ï¼Œå·²ç»è·å¾—äº†openglçš„contextï¼Œæ‰€ä»¥è¿™é‡Œä¸ä¼šå‡ºé”™ï¼Œå¦‚æœåœ¨mainçš„å¼€å§‹å°±è°ƒç”¨å°±ä¼šæœ‰é—®é¢˜
+	// GLUTæä¾›çš„ä¸»å›è°ƒä¹‹ä¸€ï¼Œç”¨ä»¥å®Œæˆä¸€å¸§å›¾åƒçš„æ¸²æŸ“å·¥ä½œï¼Œå°†ä¼šè¢«GLUTå†…éƒ¨å¾ªç¯è°ƒç”¨
 	glutDisplayFunc(RenderScene);
 	SetupRC();
-	// Í¨ÖªGLUT¿ªÊ¼ÄÚ²¿Ñ­»·£¬µ÷ÓÃ×¢²áµÄRenderScene
+	// é€šçŸ¥GLUTå¼€å§‹å†…éƒ¨å¾ªç¯ï¼Œè°ƒç”¨æ³¨å†Œçš„RenderScene
 	glutMainLoop();
 	return 0;
 }
-
-// Hello.cpp: ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
-
-//#include "stdafx.h"
-//
-//#include <iostream>
-//using namespace std;
-//#include <windows.h>
-//#pragma region Éú³É´°¿Ú¶ÔÏó
-//#include <gl/glew.h>
-//#include <gl/glut.h>
-//#pragma endregion
-//
-//void SetupRC()
-//{
-//	// Black background
-//	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
-//}
-//
-//// »æÖÆº¯Êı
-//void RenderScene(void)
-//{
-//	// Clear the window with current clearing color
-//	glClear(GL_COLOR_BUFFER_BIT);
-//	// Flush drawing commands
-//	glutSwapBuffers();
-//}
-//
-//int main(int argc, char* argv[])
-//{
-//	// glut³õÊ¼»¯
-//	glutInit(&argc, argv);
-//	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
-//	glutInitWindowSize(800, 600);
-//	glutCreateWindow("GL_Test");
-//	// Ö¸¶¨ »æÖÆº¯Êı
-//	glutDisplayFunc(RenderScene);
-//	SetupRC();
-//	// ¿ªÆôglut´°¿Ú
-//	glutMainLoop();
-//	return 0;
-//}
-
