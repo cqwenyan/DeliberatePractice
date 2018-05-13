@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\glfwBuild\CMakeFiles\f488dee04b35cab18d7b1b7da73a8b0a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9F3673A5-D086-3679-B487-B3036D6A67D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

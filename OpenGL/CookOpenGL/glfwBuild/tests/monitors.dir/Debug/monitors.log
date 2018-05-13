@@ -1,0 +1,7 @@
+﻿  Building Custom Rule F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/glfw-3.2.1/tests/CMakeLists.txt
+  CMake does not need to re-run because F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/glfwBuild/tests/CMakeFiles/generate.stamp is up-to-date.
+  monitors.c
+  getopt.c
+  glad.c
+  正在生成代码...
+  monitors.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\glfwBuild\tests\Debug\monitors.exe

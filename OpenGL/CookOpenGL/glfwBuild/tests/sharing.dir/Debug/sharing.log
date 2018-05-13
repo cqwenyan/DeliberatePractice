@@ -1,0 +1,6 @@
+﻿  Building Custom Rule F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/glfw-3.2.1/tests/CMakeLists.txt
+  CMake does not need to re-run because F:/gitHubCode/MixPool/DeliberatePractice/OpenGL/CookOpenGL/glfwBuild/tests/CMakeFiles/generate.stamp is up-to-date.
+  sharing.c
+  glad.c
+  正在生成代码...
+  sharing.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\glfwBuild\tests\Debug\sharing.exe
