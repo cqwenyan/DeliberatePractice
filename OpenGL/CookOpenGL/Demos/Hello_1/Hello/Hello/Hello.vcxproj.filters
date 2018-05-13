@@ -16,22 +16,56 @@
     <Filter Include="源文件\glad">
       <UniqueIdentifier>{02414f3d-2008-4eae-a1ca-19218bdce1c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\hello_0">
+      <UniqueIdentifier>{1f036f4d-dd07-4c60-8674-25260e518e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hello_0\hello_shaderClass_8">
+      <UniqueIdentifier>{e2d5afac-b46e-468a-b618-d9d9792412d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\glad\src\glad.c">
       <Filter>源文件\glad</Filter>
     </ClCompile>
-    <ClCompile Include="hello_window_0.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="hello_transValVertexFragmentShader_7.cpp">
+      <Filter>源文件\hello_0</Filter>
     </ClCompile>
-    <ClCompile Include="hello_window_clear_1.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="hello_multipleShadermultipleVAO_5.cpp">
+      <Filter>源文件\hello_0</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_multipleVAO_4.cpp">
+      <Filter>源文件\hello_0</Filter>
     </ClCompile>
     <ClCompile Include="hello_triangle_2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\hello_0</Filter>
     </ClCompile>
-    <ClCompile Include="hello_triangle2Rect.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="hello_triangle2Rect_3.cpp">
+      <Filter>源文件\hello_0</Filter>
     </ClCompile>
+    <ClCompile Include="hello_setValue2Shader_6.cpp">
+      <Filter>源文件\hello_0</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_window_0.cpp">
+      <Filter>源文件\hello_0</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_window_clear_1.cpp">
+      <Filter>源文件\hello_0</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_shaderClass_8.cpp">
+      <Filter>源文件\hello_0\hello_shaderClass_8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.fs">
+      <Filter>源文件\hello_0\hello_shaderClass_8</Filter>
+    </None>
+    <None Include="vertexShader.vs">
+      <Filter>源文件\hello_0\hello_shaderClass_8</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\learnopengl\shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

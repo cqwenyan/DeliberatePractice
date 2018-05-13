@@ -123,10 +123,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\glad\src\glad.c" />
-    <ClCompile Include="hello_triangle2Rect.cpp" />
+    <ClCompile Include="hello_shaderClass_8.cpp" />
+    <ClCompile Include="hello_transValVertexFragmentShader_7.cpp" />
+    <ClCompile Include="hello_multipleShadermultipleVAO_5.cpp" />
+    <ClCompile Include="hello_multipleVAO_4.cpp" />
+    <ClCompile Include="hello_triangle2Rect_3.cpp" />
     <ClCompile Include="hello_triangle_2.cpp" />
+    <ClCompile Include="hello_setValue2Shader_6.cpp" />
     <ClCompile Include="hello_window_0.cpp" />
     <ClCompile Include="hello_window_clear_1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.fs" />
+    <None Include="vertexShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\learnopengl\shader_s.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
