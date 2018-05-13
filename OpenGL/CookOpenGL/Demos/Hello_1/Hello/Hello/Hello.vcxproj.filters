@@ -21,7 +21,16 @@
     <ClCompile Include="..\..\..\..\glad\src\glad.c">
       <Filter>源文件\glad</Filter>
     </ClCompile>
-    <ClCompile Include="hello_window.cpp">
+    <ClCompile Include="hello_window_0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_window_clear_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle2Rect.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
