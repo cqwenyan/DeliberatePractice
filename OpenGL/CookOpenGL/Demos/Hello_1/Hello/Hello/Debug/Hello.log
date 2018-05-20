@@ -1,4 +1,4 @@
-﻿  hello_textureCombined_10.cpp
+﻿  texture.cpp
 f:\githubcode\mixpool\deliberatepractice\opengl\cookopengl\demos\hello_1\hello\include\learnopengl\shader_s.h(51): warning C4101: “infoLog”: 未引用的局部变量
 f:\githubcode\mixpool\deliberatepractice\opengl\cookopengl\demos\hello_1\hello\include\learnopengl\shader_s.h(50): warning C4101: “success”: 未引用的局部变量
   Hello.vcxproj -> F:\gitHubCode\MixPool\DeliberatePractice\OpenGL\CookOpenGL\Demos\Hello_1\Hello\Debug\Hello.exe

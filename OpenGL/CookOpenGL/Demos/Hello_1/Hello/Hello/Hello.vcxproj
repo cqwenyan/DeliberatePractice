@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,6 +127,7 @@
     <ClCompile Include="..\..\..\..\glad\src\glad.c" />
     <ClCompile Include="hello_shaderClass_8.cpp" />
     <ClCompile Include="hello_textureCombined_10.cpp" />
+    <ClCompile Include="hello_transformations_12.cpp" />
     <ClCompile Include="hello_transValVertexFragmentShader_7.cpp" />
     <ClCompile Include="hello_multipleShadermultipleVAO_5.cpp" />
     <ClCompile Include="hello_multipleVAO_4.cpp" />
@@ -136,9 +137,14 @@
     <ClCompile Include="hello_window_0.cpp" />
     <ClCompile Include="hello_window_clear_1.cpp" />
     <ClCompile Include="hello_texture_9.cpp" />
+    <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\configuration\root_directory.h" />
+    <None Include="11.fs" />
+    <None Include="11.vs" />
+    <None Include="12.fs" />
+    <None Include="12.vs" />
     <None Include="fragmentShader.fs" />
     <None Include="hello_texture.fs" />
     <None Include="hello_texture.vs" />
