@@ -22,6 +22,15 @@
     <Filter Include="源文件\hello_0\hello_shaderClass_8">
       <UniqueIdentifier>{e2d5afac-b46e-468a-b618-d9d9792412d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\hello_0\hello_texture_9">
+      <UniqueIdentifier>{45f53b60-3a0e-4184-9939-2038cd479514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hello_0\hello_textureCombined_10">
+      <UniqueIdentifier>{2c573cf6-d27d-40a8-9977-ffb6d90c7ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hello_0\11">
+      <UniqueIdentifier>{f721a174-c2d1-4da3-a62b-2537ba47ede0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\glad\src\glad.c">
@@ -54,6 +63,15 @@
     <ClCompile Include="hello_shaderClass_8.cpp">
       <Filter>源文件\hello_0\hello_shaderClass_8</Filter>
     </ClCompile>
+    <ClCompile Include="hello_texture_9.cpp">
+      <Filter>源文件\hello_0\hello_texture_9</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_textureCombined_10.cpp">
+      <Filter>源文件\hello_0\hello_textureCombined_10</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>源文件\hello_0\11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="fragmentShader.fs">
@@ -62,9 +80,33 @@
     <None Include="vertexShader.vs">
       <Filter>源文件\hello_0\hello_shaderClass_8</Filter>
     </None>
+    <None Include="hello_texture.vs">
+      <Filter>源文件\hello_0\hello_texture_9</Filter>
+    </None>
+    <None Include="hello_texture.fs">
+      <Filter>源文件\hello_0\hello_texture_9</Filter>
+    </None>
+    <None Include="textureCombined.vs">
+      <Filter>源文件\hello_0\hello_textureCombined_10</Filter>
+    </None>
+    <None Include="textureCombined.fs">
+      <Filter>源文件\hello_0\hello_textureCombined_10</Filter>
+    </None>
+    <None Include="11.vs">
+      <Filter>源文件\hello_0\11</Filter>
+    </None>
+    <None Include="11.fs">
+      <Filter>源文件\hello_0\11</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\learnopengl\shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\configuration\root_directory.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
